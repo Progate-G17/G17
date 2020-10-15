@@ -1,3 +1,3 @@
 # Team G-17
 :Tania-Ferima G-17
-:Imam Basri
+:Imam Basri G-17
