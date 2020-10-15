@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header*/
+
+#header {
+    background-image: url('img/bgheader.jpg');
+    background-size: cover;
+    min-height: 700px;
+    text-align: center;
+}
+
+#header ul {
+    margin: 0px;
+    font-size: 25px;
+    color: white
+}
+
+#header div {
+    margin: 10%;
+    text-align: center;
+}
+
+#header div a {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+/* biodata diri */
+
+#biodata {
+    background-color: deepskyblue;
+    margin-top: 0%;
+    padding: 10%;
+    text-align: center;
+}
+
+.poto img {
+    width: 300px;
+    padding-bottom: 50;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#biodata hr {
+    width: 70%;
+}
+
+#biodata {
+    text-align: center;
+}
+
+.navbar {
+    display: inline-block;
+    margin-right: 35px;
+    margin-top: 20px;
+    background: rgba(209, 179, 10, 0.678);
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+
+/* pengalaman */
+
+#pengalaman {
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+#pengalaman hr {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+#penglaman div {
+    display: flex;
+}
+
+.pengalaman-img img {
+    width: 70%;
+    margin: auto;
+}
+
+.pengalaman div {
+    display: flex;
+    flex-direction: column;
+}
+
+.pengalaman-img {
+    display: inline-flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+/* motivasi */
+
+#motivasi {
+    text-align: center;
+    background-image: url("img/papan.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+    font-size: 30px;
+    text-align: center;
+    color: ghostwhite;
+    padding-top: 40 px;
+}
+
+
+/* footer */
+
+#footer {
+    text-align: center;
+    display: inline-flex;
+    padding: 60px;
+    padding-bottom: 30px;
+    padding-right: 20%;
+    padding-left: 15%;
+    font-weight: 1000;
+    margin: auto;
+    list-style: none;
+}
+
+footer-isi h2,
+li {
+    padding-right: 50px;
+    list-style-type: none;
+    padding-right: 50%px;
+    text-align: center;
+}
